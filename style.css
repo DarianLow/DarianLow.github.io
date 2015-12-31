@@ -1,0 +1,80 @@
+html { 
+  background: url("/Pictures/Darian Black and white with color.JPEG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-default {
+    background-color: #f8f8f8
+    border-color: #e7e7e7
+}
+
+
+
+
+
+.nav .navbar-nav .navbar-right {
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: ;
+    line-height: 1.42857143;
+    color: black;
+    background-color: #fff
+}
+
+.navbar {
+    font-family: "Bodoni 72 Smallcaps";
+    font-size: 25px;
+    line-height: 1.42857143;
+    color: black;
+    background-color: lightgray;
+}
+
+
+
+.rectangle {
+    position: absolute;
+    min-width: 300px;
+    top:20%;
+    left:8%;
+    bottom: 0%;
+    width:30%;
+    height:75%;
+    background: lightgray;
+    opacity: .9;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-family: "Bodoni 72 Smallcaps";
+}
+
+
+
+.Rectangle-paragraph-text {
+    font-family: "Marion";
+    font-size: 19px;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+}
+
+.Header {
+    padding:  0px 20px 0px 20px;
+}
+
+.master-rectangle div {
+    display: block;
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 1.5s;
+    -webkit-transition-delay: .1s;
+    transition-property: opacity;
+    transition-duration: 1.5s;
+    transition-delay: .1s;
+}
+
+.master-rectangle div:target {
+    opacity: 1;
+    overflow-y: scroll;
+}
