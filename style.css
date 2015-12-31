@@ -72,6 +72,7 @@ h1 {
     transition-property: opacity;
     transition-duration: 3s;
     transition-delay: 0s;
+    overflow: auto;
 }
 
 .master-rectangle div:target {
